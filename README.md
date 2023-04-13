@@ -33,8 +33,8 @@ This is a simple Flask API that interacts with a MySQL database for managing use
 
 ## Examples
  1. Create a new user:
- `POST http://127.0.0.1:5000/users
-Content-Type: application/json`
+ `POST http://127.0.0.1:5000/users`
+ `Content-Type: application/json`
 
 `{
   "id": 1,
@@ -50,8 +50,8 @@ Content-Type: application/json`
  `GET http://127.0.0.1:5000/users/1`
  
  4. Update an existing user by ID:
-`PUT http://127.0.0.1:5000/users/1
-Content-Type: application/json`
+`PUT http://127.0.0.1:5000/users/1`
+`Content-Type: application/json`
 
 `{
   "id": 1
